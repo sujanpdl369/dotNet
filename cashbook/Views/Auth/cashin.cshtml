@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "CashIn";
+}
+
+<div class="row justify-content-md-center">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h3>Cash IN</h3>
+                <div class="mb-3">
+                    <label for="amount" class="form-label">Amount</label>
+                    <input type="number" class="form-control" id="amount">
+                </div>
+                <div class="mb-3">
+                    <label for="remark" class="form-label">Remarks</label>
+                    <input type="text" class="form-control" id="remark" placeholder="Remarks(Item,Person Name,Quantity)">
+                </div>
+                <div class="mb-3">
+                    <label for="category" class="form-label">Category</label>
+                    <select class="form-control" name="type">
+                        <option value="Salary">Salary</option>
+                        <option value="Sale">Sale</option>
+                        <option value="Bonus">Bonus</option>
+                        <option value="Profit">Profit</option>
+                        <option value="Deposit">Deposit</option>
+                        
+                    </select>
+                </div>
+                <hr />
+                <button type="submit" class="btn btn-success">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Home\addbook.cshtml.cs" />
+    <Compile Remove="Views\Home\cashin.cshtml.cs" />
+    <Compile Remove="Views\Home\cashout.cshtml.cs" />
+    <Compile Remove="Views\Home\dashboard.cshtml.cs" />
+    <Compile Remove="Views\Home\login.cshtml.cs" />
+    <Compile Remove="Views\Home\signup.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\addbook.cshtml" />
+    <Content Remove="Views\Home\cashin.cshtml" />
+    <Content Remove="Views\Home\cashout.cshtml" />
+    <Content Remove="Views\Home\dashboard.cshtml" />
+    <Content Remove="Views\Home\login.cshtml" />
+    <Content Remove="Views\Home\signup.cshtml" />
+  </ItemGroup>
+
+</Project>

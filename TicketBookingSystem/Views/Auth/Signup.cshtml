@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Registration";
+}
+<div class="row justify-content-md-center">
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <h3>Signup</h3>
+                <form method="post">
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="dob" class="form-label">Date of Birth</label>
+                        <input type="date" class="form-control" id="dob"placeholder="mm-dd-yyyy">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="pass1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="pass1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="pass2" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="pass2">
+                    </div>
+                    <hr />
+                    <button type="submit" class="btn btn-success">Signup</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
